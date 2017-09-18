@@ -61,10 +61,6 @@ assign HWRITE=(RTKDeviated==0)?dHWRITE:RTKHWRITE;
 // AHB Transaction control
 reg  [1:0] RTKHTRANS;
 assign HTRANS=(RTKDeviated==0)?dHTRANS:RTKHTRANS;
-//------------------------------------------------------------------------------
-// Instantiate Cortex-M0 processor logic level
-//------------------------------------------------------------------------------
- 
  
 //------------------------------------------------------------------------------
 // Trivial rootkit coprocessor unit
