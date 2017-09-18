@@ -5,12 +5,14 @@
    
    
 
-   <title>Alfred's Logic Monsters</title>
+   <title>Logic Monsters</title>
 </head>
 <body>
 <center>
 <H1>Logic Monsters</H1>
 <H3> A collection of malicious logic, AKA shellcode for hardware
+
+<font color="blue">
 <pre>
                      |
        /\            |
@@ -28,7 +30,9 @@
      (oo)         -o-
      /\           |
 /  \
+
 </pre>
+</font>
 </H3>
 </center>
  
@@ -45,6 +49,13 @@
 		<td>Total logic elements: ~140 (Cyclone IV) <p> Total registers: ~90 (Cyclone IV)</td>
 		<td>aortega</td>
 		<td><a href="https://raw.githubusercontent.com/ortegaalfredo/logic-monsters/master/malproxy/malproxy-logic.png"><img src="https://raw.githubusercontent.com/ortegaalfredo/logic-monsters/master/malproxy/malproxy-logic-hd.jpg" width="500" alt="preview" /></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/ortegaalfredo/logic-monsters/blob/master/sorath/sorath.v">Sorath<a></td>
+		<td>Tiny state-machine that recognizes a 64-bit magic number in a 32-bit bus and activates a flag. When the logic see the cookie (32 bits+32 bits) it enables a single-bit register. This can be attached to a privilege register, so it elevates privileges when the magic-number is seen. "The mystery of Sorath and his number 666 holds the secret of black magic."</td>
+		<td>Total logic elements: ~17 (Cyclone IV) <p> Total registers: ~2 (Cyclone IV)</td>
+		<td>aortega</td>
+		<td><a href="https://raw.githubusercontent.com/ortegaalfredo/logic-monsters/master/sorath/sorath-logic.png"><img src="https://raw.githubusercontent.com/ortegaalfredo/logic-monsters/master/sorath/sorath-logic.png" width="500" alt="preview" /></a></td>
 	</tr>
 </table>
 
