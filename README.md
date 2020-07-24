@@ -11,3 +11,5 @@ Total registers: ~90 (Cyclone IV)
 Total logic elements: ~17 (Cyclone IV)
 Total registers: ~2 (Cyclone IV)
 
+3. CrashProcessUnit: Small CPU-like state-machine that when parsed by Icarus Verilog v11-20200724 or older, causes a stack-based buffer overflow. This particular example demonstrates code execution on win32.
+
