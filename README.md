@@ -1,4 +1,5 @@
-# evillogic.github.io
+# https://ortegaalfredo.github.io/logic-monsters/
+
 Collection of malicious logic
 
 Site at: https://ortegaalfredo.github.io/logic-monsters/
